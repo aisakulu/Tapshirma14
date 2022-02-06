@@ -43,7 +43,10 @@ public class Class {
     public void infoClass() {
         System.out.println("Number is: " + number);
         System.out.println("Word is: " + word);
-        System.out.println("Array element are: " + Arrays.toString(array));
+        System.out.print("Array elements are: ");
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ");
+        }
 
     }
 }
